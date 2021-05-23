@@ -1,0 +1,43 @@
+
+.sideNav {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid yellow;
+    box-shadow: 1px 5px ivory;
+    background: rgb(214, 137, 21);
+  }
+
+  .sideItems{
+      list-style-type: none;
+  }
+  .sideItem{
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 40px;
+  }
+
+  .sideItem a{
+      text-decoration: none;
+  }
+  .sideItem a:hover{
+    background: white;
+    color: #0e4f1f;
+}
+.social{
+    padding-top: 80px;
+    padding-left: 20px; 
+}
+.logo{
+    margin-bottom: 35%;
+    margin-right: 10%;
+}
+@media only screen and (max-width: 769px) {
+    .sideNav {
+        width: 40%;
+        position: relative;
+    }
+  }

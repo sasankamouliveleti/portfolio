@@ -1,0 +1,11 @@
+
+.fullBackground {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 769px) {
+  .fullBackground {
+      margin-left:5%;
+  }
+}
