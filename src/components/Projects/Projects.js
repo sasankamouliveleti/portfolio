@@ -6,7 +6,7 @@ import "./Projects.css";
 const Projects = () => {
   const [projects, setprojects] = useState([]);
   useEffect(() => {
-    axios.get("./data/projects.json").then((res) => {
+    axios.get("./portfolio/data/projects.json").then((res) => {
       if (res.data.projects) {
         setprojects(res.data.projects);
       }

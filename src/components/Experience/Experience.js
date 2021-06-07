@@ -5,7 +5,7 @@ import axios from "axios";
 const Experience = (props) => {
   const [experience, setexperience] = useState([]);
   useEffect(() => {
-    axios.get("./data/experience.json").then((res) => {
+    axios.get("./portfolio/data/experience.json").then((res) => {
       if (res.data.experiences) {
         setexperience(res.data.experiences);
       }

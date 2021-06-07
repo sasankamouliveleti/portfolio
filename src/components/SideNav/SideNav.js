@@ -174,7 +174,7 @@ const SideNav = () => {
         </div>
       )}
 
-      <Route path="/" exact component={Intro} />
+      <Route path="/portfolio" exact component={Intro} />
       <Route path="/exp" exact component={Experience} />
       <Route path="/skills" exact component={Skills} />
       <Route path="/projects" exact component={Projects} />
