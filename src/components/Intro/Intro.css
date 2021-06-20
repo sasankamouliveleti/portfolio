@@ -1,32 +1,30 @@
-.heading{
-    width:70%;
-    margin-right:2%;
-    padding-left: 30px;
+.heading {
+  margin-top: 10%;
+  margin-right: 15%;
+}
+
+.profilePic {
+  width: 42%;
+}
+
+img {
+  border-radius: 50%;
+}
+.fullBackground {
+  display: flex;
+  flex-direction: row;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .profilePic {
+    width: 80%;
+  }
+  .fullBackground {
+    align-items: center;
     margin-top: 10%;
+  }
 }
-
-  .profilePic{
-    width:42%;
-    float: left;
-  }
-
-  img{
-      border-radius: 50%;
-      margin-top: 25%;
-      margin-left: 10%;
-  }
-  .clearfix{
-    clear:both
-}
-  .fullBackground{
-    margin-left:15%;
-    padding:1px 16px;
-  }
-
-  @media only screen and (max-width: 769px) {
-    .fullBackground {
-        margin-left:1%;
-        display: flexbox;
-        float: none;
-    }
-  }

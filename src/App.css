@@ -3,11 +3,5 @@
 }
 body {
   font-family: Arial;
-  margin: 0;
   background: rgb(230, 198, 151);
-
-}
-.row {  
-  display: flex;
-  flex-wrap: wrap;
 }

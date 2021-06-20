@@ -1,43 +1,62 @@
-
 .sideNav {
-    margin: 0;
-    padding: 0;
-    width: 15%;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    border: 1px solid yellow;
-    box-shadow: 1px 5px ivory;
-    background: rgb(214, 137, 21);
-  }
-
-  .sideItems{
-      list-style-type: none;
-  }
-  .sideItem{
-      padding-top: 40px;
-      padding-left: 20px;
-      padding-right: 40px;
-  }
-
-  .sideItem a{
-      text-decoration: none;
-  }
-  .sideItem a:hover{
-    background: white;
-    color: #0e4f1f;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: 1px solid yellow;
+  box-shadow: 1px 5px ivory;
+  background: rgb(214, 137, 21);
 }
-.social{
-    padding-top: 80px;
-    padding-left: 20px; 
+
+.sideItems {
+  list-style-type: none;
 }
-.logo{
-    margin-bottom: 35%;
-    margin-right: 10%;
+.sideItem {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.sideItem a {
+  text-decoration: none;
+}
+.sideItem a:hover {
+  background: white;
+  color: #0e4f1f;
+}
+.social {
+  padding-top: 80px;
+  padding-left: 20px;
+}
+.logo {
+  margin-bottom: 35%;
+  margin-right: 10%;
+}
+
+/* SideNavMobile CSS*/
+
+.topnav a {
+  color: white;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.links {
+  margin-top: 10%;
 }
 @media only screen and (max-width: 769px) {
-    .sideNav {
-        width: 40%;
-        position: relative;
-    }
+  .sideNav {
+    width: 40%;
+    position: relative;
   }
+}
