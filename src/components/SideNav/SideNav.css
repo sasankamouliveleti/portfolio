@@ -21,9 +21,10 @@
 
 .sideItem a {
   text-decoration: none;
+  font-size: 20px;
+  margin-right: 15%;
 }
 .sideItem a:hover {
-  background: white;
   color: #0e4f1f;
 }
 .social {
@@ -31,14 +32,15 @@
   padding-left: 20px;
 }
 .logo {
-  margin-bottom: 35%;
+  margin-bottom: 15%;
   margin-right: 10%;
+  margin-top: 40%;
 }
 
 /* SideNavMobile CSS*/
 
 .topnav a {
-  color: white;
+  color: black;
   padding: 8px 8px;
   text-decoration: none;
   font-size: 15px;
@@ -53,6 +55,7 @@
 }
 .links {
   margin-top: 10%;
+  padding-left: 8%;
 }
 @media only screen and (max-width: 769px) {
   .sideNav {

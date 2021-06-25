@@ -15,6 +15,7 @@ const Intro = () => {
         <div className="heading">
           <h1>Hi,</h1>
           <h1>This is Sasanka Mouli Veleti</h1>
+          <p>I am a passionate developer with an edge of data</p>
         </div>
       </div>
     </React.Fragment>

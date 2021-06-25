@@ -1,0 +1,11 @@
+Components
+
+Sidebar
+Main Body
+	- Intoduction
+	- Skills
+	- Projects
+	- Contact
+	- What is my goal
+Footer
+	- Linkedin and github links
