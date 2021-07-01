@@ -11,25 +11,77 @@ const SideNavMobile = () => {
   const [toggle, settoggle] = useState(false);
   const toggleHamburger = () => {
     settoggle(!toggle);
-    console.log("fsdfsd");
   };
   return (
     <React.Fragment>
-      <div className="topnav">
-        {toggle ? (
-          <div className="links">
-            <Link to="/portfolio">Introduction</Link>
-            <Link to="/exp">Experience</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact Me</Link>
-          </div>
+      <div className="headerLayout">
+        <div className="topnav">
+          {toggle ? (
+            <div className="links">
+              <Link to="/portfolio" onClick={toggleHamburger}>
+                Introduction
+              </Link>
+              <Link to="/exp" onClick={toggleHamburger}>
+                Experience
+              </Link>
+              <Link to="/skills" onClick={toggleHamburger}>
+                Skills
+              </Link>
+              <Link to="/projects" onClick={toggleHamburger}>
+                Projects
+              </Link>
+              <Link to="/contact" onClick={toggleHamburger}>
+                Contact Me
+              </Link>
+            </div>
+          ) : (
+            ""
+          )}
+          <a className="icon">
+            <FaBars onClick={toggleHamburger} />
+          </a>
+        </div>
+        {!toggle ? (
+          <React.Fragment>
+            <div className="logoHeader">
+              <Link to="/portfolio">
+                <img
+                  src="/portfolio/images/hamsa.jpg"
+                  width="50%"
+                  alt="The Portfolio Logo"
+                />
+              </Link>
+            </div>
+            <div className="socialLinks">
+              <ul className="socialLogos">
+                <a
+                  href="https://www.linkedin.com/in/sasanka-mouli-veleti/"
+                  rel="nofollow noreferrer"
+                  target="blank"
+                >
+                  <img
+                    src="https://i.stack.imgur.com/gVE0j.png"
+                    alt="linkedin"
+                    width="40px"
+                  />
+                </a>
+                <a
+                  href="https://github.com/sasankamouliveleti"
+                  rel="nofollow noreferrer"
+                  target="blank"
+                >
+                  <img
+                    src="https://i.stack.imgur.com/tskMh.png"
+                    alt="github"
+                    width="40px"
+                  />
+                </a>
+              </ul>
+            </div>
+          </React.Fragment>
         ) : (
           ""
         )}
-        <a className="icon">
-          <FaBars onClick={toggleHamburger} />
-        </a>
       </div>
       <Route path="/portfolio" exact component={Intro} />
       <Route path="/exp" exact component={Experience} />

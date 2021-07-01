@@ -14,10 +14,13 @@ const SideNav = () => {
       <div className="sideNav">
         <ul className="sideItems">
           <li className="logo">
-            <img
-              src="https://yt3.ggpht.com/ytc/AAUvwniptafcXkU6bILGu54Y1TSHs74JbvdoSEdV4JQ=s176-c-k-c0x00ffffff-no-rj"
-              width="70%"
-            />
+            <Link to="/portfolio">
+              <img
+                src="/portfolio/images/hamsa.jpg"
+                width="70%"
+                alt="THe Portfolio Logo"
+              />
+            </Link>
           </li>
           <li className="sideItem">
             <Link to="/portfolio">Introduction</Link>
@@ -38,7 +41,7 @@ const SideNav = () => {
             <span className="footerBody">
               <p>
                 <a
-                  href="https://www.linkedin.com/[removed]"
+                  href="https://www.linkedin.com/in/sasanka-mouli-veleti/"
                   rel="nofollow noreferrer"
                   target="blank"
                 >
@@ -50,7 +53,7 @@ const SideNav = () => {
                 </a>
                 &nbsp;
                 <a
-                  href="https://github.com/[removed]"
+                  href="https://github.com/sasankamouliveleti"
                   rel="nofollow noreferrer"
                   target="blank"
                 >

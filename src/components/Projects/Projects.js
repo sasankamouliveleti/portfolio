@@ -13,13 +13,16 @@ const Projects = () => {
     });
   }, []);
   return (
-    <div className="fullBackground">
+    <div className="projects-fullBackground ">
       {projects.map((project) => {
         return (
           <Card key={project.pid} className="positioning">
-            <div>
-            {project.pname}</div>
-            <p><a href={project.pgitlink} target="_blank" rel="noreferrer">Project Link</a></p>
+            <div>{project.pname}</div>
+            <p>
+              <a href={project.pgitlink} target="_blank" rel="noreferrer">
+                Project Link
+              </a>
+            </p>
           </Card>
         );
       })}

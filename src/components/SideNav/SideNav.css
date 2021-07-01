@@ -51,11 +51,46 @@
   display: block;
   position: absolute;
   left: 10px;
-  top: 10px;
+  top: 25px;
 }
 .links {
-  margin-top: 10%;
-  padding-left: 8%;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.headerLayout {
+  display: flex;
+  flex-direction: row;
+}
+.topnav {
+  display: flex;
+}
+.logoHeader {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+/* .socialLinks {
+  display: flex;
+  margin-top: -200px;
+} */
+#socialLinks {
+  width: 82%;
+  margin: 15px auto 0 auto;
+  padding: 2%;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  display: table;
+}
+#socialLinks ul li {
+  display: table-cell;
+}
+#socialLinks ul li a {
+  vertical-align: middle;
+  text-align: center;
+}
+#socialLinks ul li a img {
+  vertical-align: middle;
+  text-align: center;
 }
 @media only screen and (max-width: 769px) {
   .sideNav {

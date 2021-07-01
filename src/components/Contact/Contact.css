@@ -1,11 +1,67 @@
-
-.fullBackground {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+.contact-fullBackground {
+  padding: 1px 16px;
+  display: flex;
 }
+.contact-card {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.contact-map {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 300px;
+}
+.contact-form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 15px;
+  background-color: rgba(235, 209, 164);
+  padding: 40px;
+  padding-top: 60px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
 @media only screen and (max-width: 769px) {
-  .fullBackground {
-      margin-left:5%;
+  .contact-card {
+    margin-left: -100px;
+  }
+  .contact-form {
+    height: 500px;
+    width: 500px;
+  }
+  .contact-map {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .contact-fullBackground {
+    flex-direction: column;
   }
 }

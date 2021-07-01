@@ -1,15 +1,11 @@
-import React from 'react'
-
-const Skills = () =>{
-    return (
-        <div className="fullBackground">
-          <div className='heading'>
-              This is Skills
-          </div>
-      </div>
-
-    )
+import React from "react";
+import "./Skills.css";
+const Skills = () => {
+  return (
+    <div className="skills-fullBackground">
+      <div className="title">This is Skills</div>
+    </div>
+  );
 };
-
 
 export default Skills;
