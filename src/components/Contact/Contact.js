@@ -1,12 +1,23 @@
 import React, { useState } from "react";
-import GoogleMapReact from "google-map-react";
+import Googlemap from "./Googlemap";
+import { useWindowSize } from "react-use";
+
 import "./Contact.css";
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
-
+  const mapStyleMobile = {
+    width: "350px",
+    height: "400px",
+  };
+  const mapStyleWeb = {
+    width: "500px",
+    height: "500px",
+  };
+  const windowSize = useWindowSize();
+  const mapStyles = windowSize.width < 769 ? mapStyleMobile : mapStyleWeb;
   const formSubmitHandler = (event) => {
     event.preventDefault();
   };
@@ -56,13 +67,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-map">
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyA1U5dMD244c6AjAudqfE2vVvSiRCQvEnU" }}
-          defaultCenter={{ lat: 59.95, lng: 30.33 }}
-          defaultZoom={8}
-        >
-          <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-        </GoogleMapReact>
+        <Googlemap mapsstyle={mapStyles} />
       </div>
     </div>
   );
