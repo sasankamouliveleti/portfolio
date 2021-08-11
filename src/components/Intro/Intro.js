@@ -3,6 +3,7 @@ import "./Intro.css";
 
 const Intro = () => {
   const [greeting, setgreeting] = useState("");
+  const smile = String.fromCodePoint(0x1f600);
   useEffect(() => {
     let time = new Date();
     if (time.toTimeString().split(" ")[0].split(":")[0] <= 12) {
@@ -22,7 +23,9 @@ const Intro = () => {
           />
         </div>
         <div className="heading">
-          <h1>Hi {greeting},</h1>
+          <h1>
+            Hi {greeting} {smile},
+          </h1>
           <h1>This is Sasanka Mouli Veleti</h1>
           <p>
             I am a passionate developer and have a keen interest in the field of
