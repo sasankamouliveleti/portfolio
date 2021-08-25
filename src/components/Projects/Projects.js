@@ -23,6 +23,10 @@ const Projects = () => {
                 Project Link
               </a>
             </p>
+            <p>
+              Technologies User: <br></br>
+              {project.LangTech}
+            </p>
           </Card>
         );
       })}
