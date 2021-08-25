@@ -4,43 +4,50 @@
             "pid": "0",
             "pname": "BookHouse",
             "pgitlink": "https://github.com/sasankamouliveleti/Bookhouse",
-            "pdesc": "This is an application where in user can order books online"
+            "pdesc": "This is an application where in user can order books online",
+            "LangTech": "HTML, CSS, JS, PHP, SQL"
         },
         {
             "pid": "1",
             "pname": "Tourism Visualization",
             "pgitlink": "https://github.com/sasankamouliveleti/tourism",
-            "pdesc": "Worked on tourism data collection and analysis, collected from open source websites like Yelp and Foursquare using web scraping techniques."
+            "pdesc": "Worked on tourism data collection and analysis, collected from open source websites like Yelp and Foursquare using web scraping techniques.",
+            "LangTech": "Python, Pandas, Scikitlearn, Bokeh"
         },
         {
             "pid": "2",
             "pname": "Credit Card Fraud Detection",
             "pgitlink": "https://github.com/sasankamouliveleti/Credit-Card-Fraud-Detection",
-            "pdesc": "Worked on tourism data collection and analysis, collected from open source websites like Yelp and Foursquare using web scraping techniques."
+            "pdesc": "Worked on tourism data collection and analysis, collected from open source websites like Yelp and Foursquare using web scraping techniques.",
+            "LangTech": "Python, Machine Learning"
         },
         {
             "pid": "3",
             "pname": "Portfolio",
             "pgitlink": "https://github.com/sasankamouliveleti/portfolio",
-            "pdesc": "Built with ReactJS"
+            "pdesc": "Built with ReactJS",
+            "LangTech": "React-Router, React-Use, React"
         },
         {
             "pid": "4",
             "pname": "Weight-Tracker",
             "pgitlink": "https://github.com/sasankamouliveleti/Weight-Tracker",
-            "pdesc": "Tracking weights with a visual representation of line graph"
+            "pdesc": "Tracking weights with a visual representation of line graph",
+            "LangTech": "React, D3.js"
         },
         {
             "pid": "5",
             "pname": "OnlineLib",
             "pgitlink": "https://github.com/sasankamouliveleti/OnlineLib",
-            "pdesc": "This is an application where in user can read books online and upload books which can be read by other users online."
+            "pdesc": "This is an application where in user can read books online and upload books which can be read by other users online.",
+            "LangTech": "HTML, CSS, JS, ExpressJS, MYSQL"
         },
         {
             "pid": "5",
             "pname": "Foodies",
             "pgitlink": "https://github.com/sasankamouliveleti/Foodies",
-            "pdesc": "Created a website for Foodies"
+            "pdesc": "Created a website for Foodies",
+            "LangTech": "HTML, CSS, JS"
         }
     ]
 }
