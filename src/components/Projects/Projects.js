@@ -24,7 +24,7 @@ const Projects = () => {
               </a>
             </p>
             <p>
-              Technologies User: <br></br>
+              Technologies Used: <br></br>
               {project.LangTech}
             </p>
           </Card>
